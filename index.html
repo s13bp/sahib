@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg" href="/assets/logo.b607881f.svg" />
+    <title>SAHIB | PORTFOLIO</title>
+    <meta name="description" content="A multidisciplinary graphic designer based in Nairobi, focus on web design and web3 . Currently in intership at SafeConnect as UI/UX Designer and smart contract dev." />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@cathydolle" />
+    <meta name="twitter:creator" content="@cathydolle" />
+
+    <meta property="og:title" content="SAHIB Portfolio" />
+    <meta
+      property="og:description"
+      content="A multidisciplinary graphic designer based in Nairobi, focus on web design and web3 . Currently in intership at SafeConnect as UI/UX Designer and smart contract dev." />
+    <meta property="og:image" itemprop="image" content="https://i.ibb.co/9HDDfXp/thumbnail.jpg" />
+
+
+    <meta property="og:type" content="website" />
+    
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <style>
+      @font-face {
+        font-family: "NeueMontrealLight";
+        src: url("src/assets/fonts/NeueMontreal-Light.otf");
+      }
+      @font-face {
+        font-family: "NeueMontrealRegular";
+        src: url("src/assets/fonts/NeueMontreal-Regular.otf");
+      }
+      @font-face {
+        font-family: "DisplayNew";
+        src: url("src/assets/fonts/display-new.otf");
+      }
+
+      html,
+      body {
+        background: black;
+        margin: 0;
+        padding: 0;
+      }
+
+      .pace {
+        display: none;
+        position: fixed;
+        opacity: 0;
+      }
+
+      .loader {
+        background: black;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10000;
+      }
+
+      .loader .content {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 40px;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        flex-flow: column nowrap;
+      }
+
+      .loader .content .text {
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .loader .content .text .saol {
+        font-family: "Ginger";
+      }
+
+      .loader .content .line {
+        margin-top: 0px;
+        height: 2px;
+        background: white;
+        width: 0px;
+        align-self: flex-start;
+        transition: width ease-in-out 0.2s;
+      }
+
+      .text-h2-load {
+        font-family: "NeueMontrealRegular";
+        font-size: 60px;
+        color: white;
+        letter-spacing: 0;
+        margin-bottom: 1rem;
+      }
+
+      @media (max-width: 769px) {
+        .text-h2-load {
+          font-size: 40px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .text-h2-load {
+          font-size: 20px;
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index.621deca0.js"></script>
+    <link rel="modulepreload" href="/assets/vendor.3ffe77f8.js">
+  </head>
+  <body>
+    <div class="loader">
+      <div class="content">
+        <div class="text">
+          <div class="text-h2-load saol">SAHIB BHARAJ</div>
+          <div class="text-h2-load percentage">00%</div>
+        </div>
+        <div class="line"></div>
+      </div>
+    </div>
+    <div id="root"></div>
+    
+    
+  </body>
+</html>
